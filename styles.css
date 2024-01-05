@@ -1,0 +1,15 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.slideshow {
+    display: flex;
+    height: 100vh; 
+}
+.dog {
+    transition: opacity 2s ease;
+    position: absolute;
+    max-width: 100%;
+}
+
